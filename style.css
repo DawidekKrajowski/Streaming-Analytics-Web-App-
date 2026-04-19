@@ -1,0 +1,89 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 20px;
+    color: #333;
+}
+
+/* Headings */
+h1 {
+    color: #2c3e50;
+}
+
+h2 {
+    color: #34495e;
+    margin-top: 30px;
+}
+
+/* Navigation lists */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #2980b9;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #1abc9c;
+}
+
+/* Tables */
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-top: 15px;
+    background-color: white;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+th {
+    background-color: #2980b9;
+    color: white;
+}
+
+/* Forms */
+form {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    width: fit-content;
+}
+
+input, select {
+    margin: 5px 0;
+    padding: 5px;
+}
+
+/* Buttons */
+input[type="submit"] {
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    padding: 7px 12px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #1abc9c;
+}
+
+/* Divider */
+hr {
+    margin: 30px 0;
+}
